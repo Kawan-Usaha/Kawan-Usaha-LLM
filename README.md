@@ -216,6 +216,9 @@ By executing these commands, you will launch the FastChat model for inference. T
 
 Ensure that you follow these instructions precisely to establish the necessary environment for performing LLM inference using FastChat.
 
+To access the functionality of our Language Model (LLM) via an API, we provide comprehensive documentation in the form of a Postman API documentation. This documentation contains detailed instructions on how to utilize the LLM API, specifically through the "Chatting" request. You can access this documentation by referring to the link provided: [Postman API documentation](https://documenter.getpostman.com/view/19722967/2s93m1Z4X2).
+
+It is important to note that the LLM API is accessed through HTTP. In order to ensure secure communication between the mobile application and the LLM, the Cloud Computing division has implemented a reverse proxy configuration. This configuration establishes an additional layer of security by enabling the connection to be transmitted over HTTPS, safeguarding the integrity and confidentiality of the data being exchanged.
 ## Additional Notes
 
 ### No Fine-tuning (training) on the LLM?
