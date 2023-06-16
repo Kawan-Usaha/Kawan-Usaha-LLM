@@ -26,7 +26,7 @@ git clone https://huggingface.co/huggyllama/llama-13b
 ```
 
 Please note that the cloning process may take a significant amount of time due to the repository's size, which exceeds 100 GBs.
-## 2. Install Fastchat
+### 2. Install Fastchat
 FastChat is a comprehensive open platform designed to facilitate the training, deployment, and assessment of chatbots that are built upon large language models. Key highlights of this platform include:
 
 - Access to cutting-edge models such as Vicuna and FastChat-T5, along with their respective weights, training code, and evaluation code.
